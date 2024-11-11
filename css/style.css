@@ -9,6 +9,11 @@ body{
 img{
     display: block;
 }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .clicker{
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -28,10 +33,10 @@ img{
     margin: 0 auto;
 }
 
-.clicker:hover{
+button:hover{
     background: #404BBF;
 }
-.clicker:focus{
+button:focus{
     background-color: #404BBF;
 }
 p{
