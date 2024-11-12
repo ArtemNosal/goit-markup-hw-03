@@ -6,9 +6,11 @@ body{
 .team, .portfolio-section{
     padding: 120px 0;
 }
-img{
+.images-all{
     display: block;
 }
+
+
 ul{
     list-style: none;
     margin: 0;
@@ -39,7 +41,10 @@ button:hover{
 button:focus{
     background-color: #404BBF;
 }
-p{
+.information-text ,
+.team-text ,
+.portfolio-text ,
+.bottom-text{
 
         font-weight: 400;
         font-size: 16px;
@@ -53,7 +58,7 @@ font-weight: 400;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 4%;
-text-decoration: underline;
+text-decoration: none;
 }
 a:hover{
     color: #404BBF;
